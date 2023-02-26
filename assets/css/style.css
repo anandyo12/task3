@@ -1,0 +1,108 @@
+nav {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(206, 206, 206);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nav-left a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-left ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-left ul li {
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.nav-right {
+    text-align: end;
+
+}
+
+.nav-right a {
+    background-color: rgb(10, 6, 5);
+    padding: 8px 20px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+
+
+/* contact form */
+form {
+    width: 350px;
+    margin: 50px auto;
+    padding: 10px;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    background-color: #dfdedf;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+style
+            .contact{
+            font-family: sans-serif;
+            font-size: 15px;
+            background: black;
+            color: white;
+            border: white 6px solid;
+            border-radius: 15px;
+            padding: 10px ;
+            margin-bottom: 0px;
+            }
+    .download{
+    font-family: sans-serif;
+    font-size: 15px;
+    background: none;
+    color: black;
+    border: white 6px solid;
+    border-radius: 15px;
+    padding: 10px ;
+    margin-bottom: 0px;
+    }
